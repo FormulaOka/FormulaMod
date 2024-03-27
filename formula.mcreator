@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AVTOSTARG",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avtostarg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/avtostarg.json",
+          "src/main/java/net/mcreator/formula/item/AVTOSTARGItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.formula.avtostarg": "AVTOSTARG"
+    }
   },
   "foldersRoot": {
     "name": "~",
