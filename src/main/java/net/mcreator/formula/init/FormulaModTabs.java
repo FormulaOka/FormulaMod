@@ -15,6 +15,10 @@ public class FormulaModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
+		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
+			tabData.accept(FormulaModItems.STARRRRR_HELMET.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FormulaModItems.AVTOSTARG.get());
 		}

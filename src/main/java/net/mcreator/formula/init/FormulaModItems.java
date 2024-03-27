@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.formula.item.StarrrrrItem;
 import net.mcreator.formula.item.AVTOSTARGItem;
 import net.mcreator.formula.FormulaMod;
 
 public class FormulaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FormulaMod.MODID);
+	public static final RegistryObject<Item> STARRRRR_HELMET = REGISTRY.register("starrrrr_helmet", () -> new StarrrrrItem.Helmet());
 	public static final RegistryObject<Item> AVTOSTARG = REGISTRY.register("avtostarg", () -> new AVTOSTARGItem());
 }

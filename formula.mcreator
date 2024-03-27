@@ -3,6 +3,7 @@
     {
       "name": "AVTOSTARG",
       "type": "tool",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "avtostarg",
@@ -12,12 +13,27 @@
           "src/main/java/net/mcreator/formula/item/AVTOSTARGItem.java"
         ]
       }
+    },
+    {
+      "name": "Starrrrr",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "starrrrr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/StarrrrrItem.java",
+          "src/main/resources/assets/formula/models/item/starrrrr_helmet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.formula.starrrrr_helmet": "Шлем Srall",
       "item.formula.avtostarg": "AVTOSTARG"
     }
   },
