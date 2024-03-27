@@ -14,6 +14,7 @@ import net.mcreator.formula.item.StershItem;
 import net.mcreator.formula.item.StardItem;
 import net.mcreator.formula.item.STARItem;
 import net.mcreator.formula.item.PrismItem;
+import net.mcreator.formula.item.ParoshokItem;
 import net.mcreator.formula.item.ForgItem;
 import net.mcreator.formula.FormulaMod;
 
@@ -27,4 +28,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STARD = REGISTRY.register("stard", () -> new StardItem());
 	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
 	public static final RegistryObject<Item> STERSH = REGISTRY.register("stersh", () -> new StershItem());
+	public static final RegistryObject<Item> PAROSHOK = REGISTRY.register("paroshok", () -> new ParoshokItem());
 }

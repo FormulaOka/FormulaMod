@@ -96,6 +96,20 @@
           "src/main/resources/assets/formula/models/item/stersh.json"
         ]
       }
+    },
+    {
+      "name": "Paroshok",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paroshok",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/paroshok.json",
+          "src/main/java/net/mcreator/formula/item/ParoshokItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -103,6 +117,7 @@
   "language_map": {
     "en_us": {
       "item.formula.forg": "Forg Portal Igniter",
+      "item.formula.paroshok": "Paroshok",
       "item.formula.star_helmet": "Шлем STAR",
       "item.formula.prism": "Prism",
       "item.formula.stersh": "Stersh",
