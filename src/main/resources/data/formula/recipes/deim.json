@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "s",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "formula:stersh"
+    },
+    "b": {
+      "item": "formula:prism"
+    }
+  },
+  "result": {
+    "item": "formula:daim",
+    "count": 1
+  }
+}

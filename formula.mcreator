@@ -110,6 +110,73 @@
           "src/main/java/net/mcreator/formula/item/ParoshokItem.java"
         ]
       }
+    },
+    {
+      "name": "Stik",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stik",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/stik.json",
+          "src/main/java/net/mcreator/formula/item/StikItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Sterd",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sterd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/formula/recipes/sterd.json"
+        ]
+      }
+    },
+    {
+      "name": "Daim",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daim",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/DaimItem.java",
+          "src/main/resources/assets/formula/models/item/daim.json"
+        ]
+      }
+    },
+    {
+      "name": "Deim",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/formula/recipes/deim.json"
+        ]
+      }
+    },
+    {
+      "name": "Forse",
+      "type": "projectile",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/entity/ForseEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -118,13 +185,15 @@
     "en_us": {
       "item.formula.forg": "Forg Portal Igniter",
       "item.formula.paroshok": "Paroshok",
-      "item.formula.star_helmet": "Шлем STAR",
+      "item.formula.stik": "Stik",
       "item.formula.prism": "Prism",
+      "item.formula.daim": "Daim",
       "item.formula.stersh": "Stersh",
       "item.formula.star_boots": "Ботинки STAR",
       "item.formula.star_leggings": "Поножи STAR",
-      "item.formula.star_chestplate": "Нагрудник STAR",
       "item.formula.stard": "Stard",
+      "item.formula.star_helmet": "Шлем STAR",
+      "item.formula.star_chestplate": "Нагрудник STAR",
       "biome.formula.lorg": "Lorg"
     }
   },

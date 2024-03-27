@@ -1,12 +1,14 @@
 {
   "item.formula.forg": "Forg Portal Igniter",
   "item.formula.paroshok": "Paroshok",
-  "item.formula.star_helmet": "Шлем STAR",
+  "item.formula.stik": "Stik",
   "item.formula.prism": "Prism",
+  "item.formula.daim": "Daim",
   "item.formula.stersh": "Stersh",
   "item.formula.star_boots": "Ботинки STAR",
   "item.formula.star_leggings": "Поножи STAR",
-  "item.formula.star_chestplate": "Нагрудник STAR",
   "item.formula.stard": "Stard",
+  "item.formula.star_helmet": "Шлем STAR",
+  "item.formula.star_chestplate": "Нагрудник STAR",
   "biome.formula.lorg": "Lorg"
 }

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "s",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    " d "
+  ],
+  "key": {
+    "a": {
+      "item": "formula:paroshok"
+    },
+    "b": {
+      "item": "formula:stersh"
+    },
+    "c": {
+      "item": "formula:prism"
+    },
+    "d": {
+      "item": "formula:stik"
+    }
+  },
+  "result": {
+    "item": "formula:stard",
+    "count": 1
+  }
+}
