@@ -54,6 +54,20 @@
           "src/main/resources/assets/formula/models/item/star_chestplate.json"
         ]
       }
+    },
+    {
+      "name": "Stard",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/StardItem.java",
+          "src/main/resources/assets/formula/models/item/stard.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -65,6 +79,7 @@
       "item.formula.star_boots": "Ботинки STAR",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.star_chestplate": "Нагрудник STAR",
+      "item.formula.stard": "Stard",
       "biome.formula.lorg": "Lorg"
     }
   },

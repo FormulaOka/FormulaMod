@@ -24,6 +24,7 @@ public class FormulaModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FormulaModItems.FORG.get());
+			tabData.accept(FormulaModItems.STARD.get());
 		}
 	}
 }
