@@ -55,6 +55,20 @@
           "src/main/resources/data/formula/worldgen/configured_feature/starstend_tree.json"
         ]
       }
+    },
+    {
+      "name": "Prism",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/prism.json",
+          "src/main/java/net/mcreator/formula/item/PrismItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -63,6 +77,7 @@
     "en_us": {
       "item.formula.sworld": "SWORLD",
       "item.minecraft.tipped_arrow.effect.formulas": "Arrow of Formulas",
+      "item.formula.prism": "Prism",
       "biome.formula.starstend": "Starstend",
       "item.minecraft.potion.effect.formulas": "Potion of Formulas",
       "block.formula.star": "Star",

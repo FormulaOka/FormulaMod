@@ -13,12 +13,14 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.formula.item.SWORLDItem;
+import net.mcreator.formula.item.PrismItem;
 import net.mcreator.formula.FormulaMod;
 
 public class FormulaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FormulaMod.MODID);
 	public static final RegistryObject<Item> STAR = block(FormulaModBlocks.STAR);
 	public static final RegistryObject<Item> SWORLD = REGISTRY.register("sworld", () -> new SWORLDItem());
+	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
