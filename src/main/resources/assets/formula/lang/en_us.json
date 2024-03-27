@@ -1,12 +1,15 @@
 {
+  "item.formula.yesssssss": "Yesssssss",
+  "item.formula.prism": "Prism",
+  "item.formula.starlig": "onemotaim",
+  "biome.formula.starstend": "Starstend",
+  "block.formula.star": "Star",
+  "item.minecraft.lingering_potion.effect.formulas": "Lingering Potion of Formulas",
   "item.formula.sworld": "SWORLD",
   "item.formula.forsh": "Forsh",
   "item.minecraft.tipped_arrow.effect.formulas": "Arrow of Formulas",
-  "item.formula.prism": "Prism",
-  "biome.formula.starstend": "Starstend",
   "item.minecraft.potion.effect.formulas": "Potion of Formulas",
-  "block.formula.star": "Star",
   "item.minecraft.splash_potion.effect.formulas": "Splash Potion of Formulas",
-  "item.minecraft.lingering_potion.effect.formulas": "Lingering Potion of Formulas",
-  "item.formula.snom": "Snom"
+  "item.formula.snom": "Snom",
+  "block.formula.dcer": "Dcer"
 }

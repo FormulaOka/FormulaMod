@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "formula:block/starlig_portal_ew"
+    },
+    "axis=x": {
+      "model": "formula:block/starlig_portal_ns"
+    }
+  }
+}

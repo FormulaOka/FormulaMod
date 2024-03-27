@@ -17,6 +17,7 @@ public class FormulaModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(FormulaModBlocks.STAR.get().asItem());
+			tabData.accept(FormulaModBlocks.DCER.get().asItem());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
@@ -26,6 +27,8 @@ public class FormulaModTabs {
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FormulaModItems.SWORLD.get());
 			tabData.accept(FormulaModItems.FORSH.get());
+			tabData.accept(FormulaModItems.YESSSSSSS.get());
+			tabData.accept(FormulaModItems.STARLIG.get());
 		}
 	}
 }
