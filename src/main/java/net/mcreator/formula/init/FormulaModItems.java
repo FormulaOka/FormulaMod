@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.formula.item.StershItem;
 import net.mcreator.formula.item.StardItem;
 import net.mcreator.formula.item.STARItem;
 import net.mcreator.formula.item.PrismItem;
@@ -25,4 +26,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STAR_BOOTS = REGISTRY.register("star_boots", () -> new STARItem.Boots());
 	public static final RegistryObject<Item> STARD = REGISTRY.register("stard", () -> new StardItem());
 	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
+	public static final RegistryObject<Item> STERSH = REGISTRY.register("stersh", () -> new StershItem());
 }

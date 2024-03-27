@@ -82,6 +82,20 @@
           "src/main/java/net/mcreator/formula/item/PrismItem.java"
         ]
       }
+    },
+    {
+      "name": "Stersh",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stersh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/StershItem.java",
+          "src/main/resources/assets/formula/models/item/stersh.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -91,6 +105,7 @@
       "item.formula.forg": "Forg Portal Igniter",
       "item.formula.star_helmet": "Шлем STAR",
       "item.formula.prism": "Prism",
+      "item.formula.stersh": "Stersh",
       "item.formula.star_boots": "Ботинки STAR",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.star_chestplate": "Нагрудник STAR",
