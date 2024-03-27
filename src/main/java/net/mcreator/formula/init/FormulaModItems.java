@@ -18,6 +18,7 @@ import net.mcreator.formula.item.PrismItem;
 import net.mcreator.formula.item.ParoshokItem;
 import net.mcreator.formula.item.ForgItem;
 import net.mcreator.formula.item.DaimItem;
+import net.mcreator.formula.item.ChargeItem;
 import net.mcreator.formula.FormulaMod;
 
 public class FormulaModItems {
@@ -33,4 +34,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> PAROSHOK = REGISTRY.register("paroshok", () -> new ParoshokItem());
 	public static final RegistryObject<Item> STIK = REGISTRY.register("stik", () -> new StikItem());
 	public static final RegistryObject<Item> DAIM = REGISTRY.register("daim", () -> new DaimItem());
+	public static final RegistryObject<Item> CHARGE = REGISTRY.register("charge", () -> new ChargeItem());
 }

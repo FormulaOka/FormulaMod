@@ -177,6 +177,33 @@
           "src/main/java/net/mcreator/formula/entity/ForseEntity.java"
         ]
       }
+    },
+    {
+      "name": "Charge",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/ChargeItem.java",
+          "src/main/resources/assets/formula/models/item/charge.json"
+        ]
+      }
+    },
+    {
+      "name": "Enierghiia",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enierghiia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/formula/advancements/enierghiia.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -192,8 +219,11 @@
       "item.formula.star_boots": "Ботинки STAR",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.stard": "Stard",
+      "advancements.enierghiia.title": "Enierghiia",
+      "advancements.enierghiia.descr": "скрафи charge",
       "item.formula.star_helmet": "Шлем STAR",
       "item.formula.star_chestplate": "Нагрудник STAR",
+      "item.formula.charge": "Charge",
       "biome.formula.lorg": "Lorg"
     }
   },

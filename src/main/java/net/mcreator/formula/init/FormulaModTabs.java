@@ -24,6 +24,7 @@ public class FormulaModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(FormulaModItems.PRISM.get());
+			tabData.accept(FormulaModItems.CHARGE.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
