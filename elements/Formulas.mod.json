@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Formulas",
+    "splashName": "Splash Potion of Formulas",
+    "lingeringName": "Lingering Potion of Formulas",
+    "arrowName": "Arrow of Formulas",
+    "effects": [
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 69849,
+        "amplifier": 137,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "JUMP_BOOST"
+        },
+        "duration": 49006,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 3636,
+        "amplifier": 20,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HERO_OF_THE_VILLAGE"
+        },
+        "duration": 3600,
+        "amplifier": 6,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
