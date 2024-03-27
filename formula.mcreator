@@ -1,9 +1,51 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Lorg",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lorg",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/formula/worldgen/biome/lorg.json",
+          "src/main/resources/data/formula/worldgen/configured_feature/lorg_tree.json",
+          "src/main/resources/data/formula/worldgen/placed_feature/lorg_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Forg",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/block/ForgPortalBlock.java",
+          "src/main/resources/assets/formula/models/block/forg_portal_ew.json",
+          "src/main/resources/assets/formula/models/block/forg_portal_ns.json",
+          "src/main/java/net/mcreator/formula/world/teleporter/ForgPortalShape.java",
+          "src/main/java/net/mcreator/formula/item/ForgItem.java",
+          "src/main/resources/assets/formula/blockstates/forg_portal.json",
+          "src/main/resources/data/formula/dimension_type/forg.json",
+          "src/main/java/net/mcreator/formula/world/teleporter/ForgTeleporter.java",
+          "src/main/resources/data/formula/dimension/forg.json",
+          "src/main/java/net/mcreator/formula/world/dimension/ForgDimension.java",
+          "src/main/resources/assets/formula/models/item/forg.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.formula.forg": "Forg Portal Igniter",
+      "biome.formula.lorg": "Lorg"
+    }
   },
   "foldersRoot": {
     "name": "~",

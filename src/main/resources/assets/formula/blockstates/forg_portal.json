@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "formula:block/forg_portal_ew"
+    },
+    "axis=x": {
+      "model": "formula:block/forg_portal_ns"
+    }
+  }
+}
