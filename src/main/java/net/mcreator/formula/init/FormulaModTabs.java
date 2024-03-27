@@ -22,6 +22,10 @@ public class FormulaModTabs {
 			tabData.accept(FormulaModItems.STAR_BOOTS.get());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(FormulaModItems.PRISM.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(FormulaModItems.FORG.get());
 			tabData.accept(FormulaModItems.STARD.get());

@@ -68,6 +68,20 @@
           "src/main/resources/assets/formula/models/item/stard.json"
         ]
       }
+    },
+    {
+      "name": "Prism",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prism",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/prism.json",
+          "src/main/java/net/mcreator/formula/item/PrismItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -76,6 +90,7 @@
     "en_us": {
       "item.formula.forg": "Forg Portal Igniter",
       "item.formula.star_helmet": "Шлем STAR",
+      "item.formula.prism": "Prism",
       "item.formula.star_boots": "Ботинки STAR",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.star_chestplate": "Нагрудник STAR",

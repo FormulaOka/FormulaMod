@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.formula.item.StardItem;
 import net.mcreator.formula.item.STARItem;
+import net.mcreator.formula.item.PrismItem;
 import net.mcreator.formula.item.ForgItem;
 import net.mcreator.formula.FormulaMod;
 
@@ -23,4 +24,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STAR_LEGGINGS = REGISTRY.register("star_leggings", () -> new STARItem.Leggings());
 	public static final RegistryObject<Item> STAR_BOOTS = REGISTRY.register("star_boots", () -> new STARItem.Boots());
 	public static final RegistryObject<Item> STARD = REGISTRY.register("stard", () -> new StardItem());
+	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
 }
