@@ -7,6 +7,7 @@ package net.mcreator.formula.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
@@ -35,4 +36,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STIK = REGISTRY.register("stik", () -> new StikItem());
 	public static final RegistryObject<Item> DAIM = REGISTRY.register("daim", () -> new DaimItem());
 	public static final RegistryObject<Item> CHARGE = REGISTRY.register("charge", () -> new ChargeItem());
+	public static final RegistryObject<Item> FORMULA_OAK_SPAWN_EGG = REGISTRY.register("formula_oak_spawn_egg", () -> new ForgeSpawnEggItem(FormulaModEntities.FORMULA_OAK, -39424, -52480, new Item.Properties()));
 }

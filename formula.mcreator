@@ -204,21 +204,39 @@
           "src/main/resources/data/formula/advancements/enierghiia.json"
         ]
       }
+    },
+    {
+      "name": "FormulaOak",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formula_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/formula_oak_spawn_egg.json",
+          "src/main/java/net/mcreator/formula/entity/FormulaOakEntity.java",
+          "src/main/java/net/mcreator/formula/client/renderer/FormulaOakRenderer.java",
+          "src/main/resources/data/formula/forge/biome_modifier/formula_oak_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.formula.forg": "Forg Portal Igniter",
       "item.formula.paroshok": "Paroshok",
+      "item.formula.forg": "Forg Portal Igniter",
       "item.formula.stik": "Stik",
       "item.formula.prism": "Prism",
       "item.formula.daim": "Daim",
       "item.formula.stersh": "Stersh",
       "item.formula.star_boots": "Ботинки STAR",
+      "entity.formula.formula_oak": "Formula Oak",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.stard": "Stard",
+      "item.formula.formula_oak_spawn_egg": "Formula Oak Spawn Egg",
       "advancements.enierghiia.title": "Enierghiia",
       "advancements.enierghiia.descr": "скрафи charge",
       "item.formula.star_helmet": "Шлем STAR",

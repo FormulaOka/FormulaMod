@@ -22,6 +22,10 @@ public class FormulaModTabs {
 			tabData.accept(FormulaModItems.STAR_BOOTS.get());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(FormulaModItems.FORMULA_OAK_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(FormulaModItems.PRISM.get());
 			tabData.accept(FormulaModItems.CHARGE.get());
