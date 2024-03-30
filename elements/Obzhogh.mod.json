@@ -1,0 +1,21 @@
+{
+  "_fv": 57,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Obzhogh",
+    "type": "BREAKABLE",
+    "rarity": "COMMON",
+    "minLevel": 1,
+    "maxLevel": 2916,
+    "damageModifier": 40,
+    "compatibleEnchantments": [],
+    "excludeEnchantments": false,
+    "compatibleItems": [],
+    "excludeItems": false,
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
+  }
+}

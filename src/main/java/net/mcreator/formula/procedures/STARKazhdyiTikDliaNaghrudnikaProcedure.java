@@ -10,6 +10,6 @@ public class STARKazhdyiTikDliaNaghrudnikaProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 60, 9, false, false));
+			_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 100, 49, false, false));
 	}
 }

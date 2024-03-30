@@ -84,20 +84,6 @@
       }
     },
     {
-      "name": "Stersh",
-      "type": "item",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stersh",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/formula/item/StershItem.java",
-          "src/main/resources/assets/formula/models/item/stersh.json"
-        ]
-      }
-    },
-    {
       "name": "Paroshok",
       "type": "item",
       "sortid": 7,
@@ -126,19 +112,6 @@
       }
     },
     {
-      "name": "Sterd",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sterd",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/formula/recipes/sterd.json"
-        ]
-      }
-    },
-    {
       "name": "Daim",
       "type": "item",
       "sortid": 10,
@@ -149,32 +122,6 @@
         "files": [
           "src/main/java/net/mcreator/formula/item/DaimItem.java",
           "src/main/resources/assets/formula/models/item/daim.json"
-        ]
-      }
-    },
-    {
-      "name": "Deim",
-      "type": "recipe",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "deim",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/formula/recipes/deim.json"
-        ]
-      }
-    },
-    {
-      "name": "Forse",
-      "type": "projectile",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "forse",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/formula/entity/ForseEntity.java"
         ]
       }
     },
@@ -253,6 +200,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "Sviazka",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sviazka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/sviazka.json"
+        ]
+      }
+    },
+    {
+      "name": "Obzhogh",
+      "type": "enchantment",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obzhogh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/enchantment/ObzhoghEnchantment.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -264,7 +237,6 @@
       "item.formula.stik": "Stik",
       "item.formula.prism": "Prism",
       "item.formula.daim": "Daim",
-      "item.formula.stersh": "Stersh",
       "item.formula.sablia": "Sablia",
       "item.formula.star_boots": "Ботинки STAR",
       "entity.formula.formula_oak": "Formula Oak",
@@ -275,6 +247,7 @@
       "advancements.enierghiia.descr": "скрафи charge",
       "item.formula.star_helmet": "Шлем STAR",
       "item.formula.star_chestplate": "Нагрудник STAR",
+      "enchantment.formula.obzhogh": "Obzhogh",
       "item.formula.charge": "Charge",
       "biome.formula.lorg": "Lorg"
     }

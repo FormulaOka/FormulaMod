@@ -12,7 +12,6 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.formula.item.StikItem;
-import net.mcreator.formula.item.StershItem;
 import net.mcreator.formula.item.StardItem;
 import net.mcreator.formula.item.SabliaItem;
 import net.mcreator.formula.item.STARItem;
@@ -32,7 +31,6 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STAR_BOOTS = REGISTRY.register("star_boots", () -> new STARItem.Boots());
 	public static final RegistryObject<Item> STARD = REGISTRY.register("stard", () -> new StardItem());
 	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
-	public static final RegistryObject<Item> STERSH = REGISTRY.register("stersh", () -> new StershItem());
 	public static final RegistryObject<Item> PAROSHOK = REGISTRY.register("paroshok", () -> new ParoshokItem());
 	public static final RegistryObject<Item> STIK = REGISTRY.register("stik", () -> new StikItem());
 	public static final RegistryObject<Item> DAIM = REGISTRY.register("daim", () -> new DaimItem());

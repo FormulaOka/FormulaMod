@@ -9,15 +9,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
-
 import net.mcreator.formula.client.renderer.FormulaOakRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class FormulaModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(FormulaModEntities.FORSE.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(FormulaModEntities.FORMULA_OAK.get(), FormulaOakRenderer::new);
 	}
 }

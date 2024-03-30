@@ -4,7 +4,6 @@
   "item.formula.stik": "Stik",
   "item.formula.prism": "Prism",
   "item.formula.daim": "Daim",
-  "item.formula.stersh": "Stersh",
   "item.formula.sablia": "Sablia",
   "item.formula.star_boots": "Ботинки STAR",
   "entity.formula.formula_oak": "Formula Oak",
@@ -15,6 +14,7 @@
   "advancements.enierghiia.descr": "скрафи charge",
   "item.formula.star_helmet": "Шлем STAR",
   "item.formula.star_chestplate": "Нагрудник STAR",
+  "enchantment.formula.obzhogh": "Obzhogh",
   "item.formula.charge": "Charge",
   "biome.formula.lorg": "Lorg"
 }

@@ -18,6 +18,6 @@ public class FormulaOakRenderer extends HumanoidMobRenderer<FormulaOakEntity, Hu
 
 	@Override
 	public ResourceLocation getTextureLocation(FormulaOakEntity entity) {
-		return new ResourceLocation("formula:textures/entities/maeggeresub-rc-gray-17659648-e860.png");
+		return new ResourceLocation("formula:textures/entities/b413095762351845.png");
 	}
 }
