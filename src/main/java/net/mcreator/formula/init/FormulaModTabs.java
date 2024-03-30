@@ -20,6 +20,7 @@ public class FormulaModTabs {
 			tabData.accept(FormulaModItems.STAR_CHESTPLATE.get());
 			tabData.accept(FormulaModItems.STAR_LEGGINGS.get());
 			tabData.accept(FormulaModItems.STAR_BOOTS.get());
+			tabData.accept(FormulaModItems.SABLIA.get());
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {

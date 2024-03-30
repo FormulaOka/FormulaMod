@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.mcreator.formula.item.StikItem;
 import net.mcreator.formula.item.StershItem;
 import net.mcreator.formula.item.StardItem;
+import net.mcreator.formula.item.SabliaItem;
 import net.mcreator.formula.item.STARItem;
 import net.mcreator.formula.item.PrismItem;
 import net.mcreator.formula.item.ParoshokItem;
@@ -37,4 +38,5 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> DAIM = REGISTRY.register("daim", () -> new DaimItem());
 	public static final RegistryObject<Item> CHARGE = REGISTRY.register("charge", () -> new ChargeItem());
 	public static final RegistryObject<Item> FORMULA_OAK_SPAWN_EGG = REGISTRY.register("formula_oak_spawn_egg", () -> new ForgeSpawnEggItem(FormulaModEntities.FORMULA_OAK, -39424, -52480, new Item.Properties()));
+	public static final RegistryObject<Item> SABLIA = REGISTRY.register("sablia", () -> new SabliaItem());
 }

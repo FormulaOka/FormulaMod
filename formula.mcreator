@@ -220,6 +220,20 @@
           "src/main/resources/data/formula/forge/biome_modifier/formula_oak_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "Sablia",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sablia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/SabliaItem.java",
+          "src/main/resources/assets/formula/models/item/sablia.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -232,6 +246,7 @@
       "item.formula.prism": "Prism",
       "item.formula.daim": "Daim",
       "item.formula.stersh": "Stersh",
+      "item.formula.sablia": "Sablia",
       "item.formula.star_boots": "Ботинки STAR",
       "entity.formula.formula_oak": "Formula Oak",
       "item.formula.star_leggings": "Поножи STAR",
