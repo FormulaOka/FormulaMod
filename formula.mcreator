@@ -47,11 +47,11 @@
       "registry_name": "star",
       "metadata": {
         "files": [
-          "src/main/resources/assets/formula/models/item/star_boots.json",
-          "src/main/resources/assets/formula/models/item/star_leggings.json",
           "src/main/resources/assets/formula/models/item/star_helmet.json",
+          "src/main/resources/assets/formula/models/item/star_chestplate.json",
           "src/main/java/net/mcreator/formula/item/STARItem.java",
-          "src/main/resources/assets/formula/models/item/star_chestplate.json"
+          "src/main/resources/assets/formula/models/item/star_leggings.json",
+          "src/main/resources/assets/formula/models/item/star_boots.json"
         ]
       }
     },
@@ -232,6 +232,25 @@
         "files": [
           "src/main/java/net/mcreator/formula/item/SabliaItem.java",
           "src/main/resources/assets/formula/models/item/sablia.json"
+        ]
+      }
+    },
+    {
+      "name": "STARKazhdyiTikDliaNaghrudnika",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_kazhdyi_tik_dlia_naghrudnika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/procedures/STARKazhdyiTikDliaNaghrudnikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       }
     }

@@ -10,6 +10,9 @@
     "textureLeggings": "star",
     "enableBoots": true,
     "textureBoots": "stars",
+    "onBodyTick": {
+      "name": "STARKazhdyiTikDliaNaghrudnika"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

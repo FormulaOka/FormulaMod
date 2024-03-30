@@ -11,12 +11,15 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
+
+import net.mcreator.formula.procedures.STARKazhdyiTikDliaNaghrudnikaProcedure;
 
 import java.util.List;
 
@@ -104,6 +107,11 @@ public abstract class STARItem extends ArmorItem {
 		@Override
 		public boolean makesPiglinsNeutral(ItemStack itemstack, LivingEntity entity) {
 			return false;
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			STARKazhdyiTikDliaNaghrudnikaProcedure.execute(entity);
 		}
 	}
 
