@@ -111,7 +111,7 @@ public abstract class STARItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			STARKazhdyiTikDliaNaghrudnikaProcedure.execute(entity);
+			STARKazhdyiTikDliaNaghrudnikaProcedure.execute();
 		}
 	}
 

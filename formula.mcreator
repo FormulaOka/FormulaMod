@@ -47,11 +47,11 @@
       "registry_name": "star",
       "metadata": {
         "files": [
-          "src/main/resources/assets/formula/models/item/star_helmet.json",
-          "src/main/resources/assets/formula/models/item/star_chestplate.json",
-          "src/main/java/net/mcreator/formula/item/STARItem.java",
+          "src/main/resources/assets/formula/models/item/star_boots.json",
           "src/main/resources/assets/formula/models/item/star_leggings.json",
-          "src/main/resources/assets/formula/models/item/star_boots.json"
+          "src/main/resources/assets/formula/models/item/star_helmet.json",
+          "src/main/java/net/mcreator/formula/item/STARItem.java",
+          "src/main/resources/assets/formula/models/item/star_chestplate.json"
         ]
       }
     },
@@ -193,12 +193,7 @@
         "files": [
           "src/main/java/net/mcreator/formula/procedures/STARKazhdyiTikDliaNaghrudnikaProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {
@@ -226,6 +221,17 @@
           "src/main/java/net/mcreator/formula/enchantment/ObzhoghEnchantment.java"
         ]
       }
+    },
+    {
+      "name": "Zielie",
+      "type": "potion",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zielie",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -237,6 +243,7 @@
       "item.formula.stik": "Stik",
       "item.formula.prism": "Prism",
       "item.formula.daim": "Daim",
+      "item.minecraft.tipped_arrow.effect.zielie": "Arrow of Zielie",
       "item.formula.sablia": "Sablia",
       "item.formula.star_boots": "Ботинки STAR",
       "entity.formula.formula_oak": "Formula Oak",
@@ -244,8 +251,11 @@
       "item.formula.stard": "Stard",
       "item.formula.formula_oak_spawn_egg": "Formula Oak Spawn Egg",
       "advancements.enierghiia.title": "Enierghiia",
+      "item.minecraft.lingering_potion.effect.zielie": "Lingering Potion of Zielie",
       "advancements.enierghiia.descr": "скрафи charge",
       "item.formula.star_helmet": "Шлем STAR",
+      "item.minecraft.splash_potion.effect.zielie": "Splash Potion of Zielie",
+      "item.minecraft.potion.effect.zielie": "Potion of Zielie",
       "item.formula.star_chestplate": "Нагрудник STAR",
       "enchantment.formula.obzhogh": "Obzhogh",
       "item.formula.charge": "Charge",

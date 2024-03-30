@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.formula.init.FormulaModPotions;
 import net.mcreator.formula.init.FormulaModItems;
 import net.mcreator.formula.init.FormulaModEntities;
 import net.mcreator.formula.init.FormulaModEnchantments;
@@ -57,6 +58,8 @@ public class FormulaMod {
 		FormulaModEntities.REGISTRY.register(bus);
 
 		FormulaModEnchantments.REGISTRY.register(bus);
+
+		FormulaModPotions.REGISTRY.register(bus);
 
 	}
 
