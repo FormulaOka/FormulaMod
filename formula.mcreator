@@ -70,48 +70,6 @@
       }
     },
     {
-      "name": "Prism",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "prism",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/formula/models/item/prism.json",
-          "src/main/java/net/mcreator/formula/item/PrismItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Paroshok",
-      "type": "item",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "paroshok",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/formula/models/item/paroshok.json",
-          "src/main/java/net/mcreator/formula/item/ParoshokItem.java"
-        ]
-      }
-    },
-    {
-      "name": "Stik",
-      "type": "item",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stik",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/formula/models/item/stik.json",
-          "src/main/java/net/mcreator/formula/item/StikItem.java"
-        ]
-      }
-    },
-    {
       "name": "Daim",
       "type": "item",
       "sortid": 10,
@@ -122,33 +80,6 @@
         "files": [
           "src/main/java/net/mcreator/formula/item/DaimItem.java",
           "src/main/resources/assets/formula/models/item/daim.json"
-        ]
-      }
-    },
-    {
-      "name": "Charge",
-      "type": "item",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charge",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/formula/item/ChargeItem.java",
-          "src/main/resources/assets/formula/models/item/charge.json"
-        ]
-      }
-    },
-    {
-      "name": "Enierghiia",
-      "type": "achievement",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "enierghiia",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/formula/advancements/enierghiia.json"
         ]
       }
     },
@@ -195,70 +126,22 @@
         ],
         "dependencies": []
       }
-    },
-    {
-      "name": "Sviazka",
-      "type": "tag",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sviazka",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/items/sviazka.json"
-        ]
-      }
-    },
-    {
-      "name": "Obzhogh",
-      "type": "enchantment",
-      "sortid": 19,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obzhogh",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/formula/enchantment/ObzhoghEnchantment.java"
-        ]
-      }
-    },
-    {
-      "name": "Zielie",
-      "type": "potion",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "zielie",
-      "metadata": {
-        "files": []
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.formula.paroshok": "Paroshok",
       "item.formula.forg": "Forg Portal Igniter",
-      "item.formula.stik": "Stik",
-      "item.formula.prism": "Prism",
+      "item.formula.star_helmet": "Шлем STAR",
       "item.formula.daim": "Daim",
-      "item.minecraft.tipped_arrow.effect.zielie": "Arrow of Zielie",
       "item.formula.sablia": "Sablia",
       "item.formula.star_boots": "Ботинки STAR",
       "entity.formula.formula_oak": "Formula Oak",
       "item.formula.star_leggings": "Поножи STAR",
       "item.formula.stard": "Stard",
       "item.formula.formula_oak_spawn_egg": "Formula Oak Spawn Egg",
-      "advancements.enierghiia.title": "Enierghiia",
-      "item.minecraft.lingering_potion.effect.zielie": "Lingering Potion of Zielie",
-      "advancements.enierghiia.descr": "скрафи charge",
-      "item.formula.star_helmet": "Шлем STAR",
-      "item.minecraft.splash_potion.effect.zielie": "Splash Potion of Zielie",
-      "item.minecraft.potion.effect.zielie": "Potion of Zielie",
       "item.formula.star_chestplate": "Нагрудник STAR",
-      "enchantment.formula.obzhogh": "Obzhogh",
-      "item.formula.charge": "Charge",
       "biome.formula.lorg": "Lorg"
     }
   },

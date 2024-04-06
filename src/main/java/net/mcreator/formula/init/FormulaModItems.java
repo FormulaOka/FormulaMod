@@ -11,15 +11,11 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
-import net.mcreator.formula.item.StikItem;
 import net.mcreator.formula.item.StardItem;
 import net.mcreator.formula.item.SabliaItem;
 import net.mcreator.formula.item.STARItem;
-import net.mcreator.formula.item.PrismItem;
-import net.mcreator.formula.item.ParoshokItem;
 import net.mcreator.formula.item.ForgItem;
 import net.mcreator.formula.item.DaimItem;
-import net.mcreator.formula.item.ChargeItem;
 import net.mcreator.formula.FormulaMod;
 
 public class FormulaModItems {
@@ -30,11 +26,7 @@ public class FormulaModItems {
 	public static final RegistryObject<Item> STAR_LEGGINGS = REGISTRY.register("star_leggings", () -> new STARItem.Leggings());
 	public static final RegistryObject<Item> STAR_BOOTS = REGISTRY.register("star_boots", () -> new STARItem.Boots());
 	public static final RegistryObject<Item> STARD = REGISTRY.register("stard", () -> new StardItem());
-	public static final RegistryObject<Item> PRISM = REGISTRY.register("prism", () -> new PrismItem());
-	public static final RegistryObject<Item> PAROSHOK = REGISTRY.register("paroshok", () -> new ParoshokItem());
-	public static final RegistryObject<Item> STIK = REGISTRY.register("stik", () -> new StikItem());
 	public static final RegistryObject<Item> DAIM = REGISTRY.register("daim", () -> new DaimItem());
-	public static final RegistryObject<Item> CHARGE = REGISTRY.register("charge", () -> new ChargeItem());
 	public static final RegistryObject<Item> FORMULA_OAK_SPAWN_EGG = REGISTRY.register("formula_oak_spawn_egg", () -> new ForgeSpawnEggItem(FormulaModEntities.FORMULA_OAK, -39424, -52480, new Item.Properties()));
 	public static final RegistryObject<Item> SABLIA = REGISTRY.register("sablia", () -> new SabliaItem());
 }
