@@ -1,9 +1,36 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Dimaind",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimaind",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/dimaind.json",
+          "src/main/java/net/mcreator/formula/item/DimaindItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Mister",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mister",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.formula.mister": "Mister",
+      "item.formula.dimaind": "Dimaind"
+    }
   },
   "foldersRoot": {
     "name": "~",
