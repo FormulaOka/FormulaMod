@@ -3,6 +3,7 @@
     {
       "name": "Dimaind",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dimaind",
@@ -14,13 +15,45 @@
       }
     },
     {
-      "name": "Mister",
-      "type": "tab",
+      "name": "StarX",
+      "type": "armor",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mister",
+      "registry_name": "star_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/StarXItem.java",
+          "src/main/resources/assets/formula/models/item/star_x_chestplate.json",
+          "src/main/resources/assets/formula/models/item/star_x_leggings.json",
+          "src/main/resources/assets/formula/models/item/star_x_helmet.json",
+          "src/main/resources/assets/formula/models/item/star_x_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Formulax",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formulax",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "Swordx",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/SwordxItem.java",
+          "src/main/resources/assets/formula/models/item/swordx.json"
+        ]
       }
     }
   ],
@@ -28,8 +61,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item_group.formula.mister": "Mister",
-      "item.formula.dimaind": "Dimaind"
+      "item.formula.star_x_boots": "Ботинки Star X",
+      "item.formula.star_x_chestplate": "Нагрудник Star X",
+      "item_group.formula.formulax": "Formulax",
+      "item.formula.dimaind": "Dimaind",
+      "item.formula.swordx": "Sword X",
+      "item.formula.star_x_helmet": "Шлем Star X",
+      "item.formula.star_x_leggings": "Поножи Star X"
     }
   },
   "foldersRoot": {
