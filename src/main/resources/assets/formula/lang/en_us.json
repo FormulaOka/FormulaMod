@@ -1,5 +1,7 @@
 {
   "item.formula.star": "Star",
   "item.formula.solniechnysword": "Solniechnysword",
-  "item_group.formula.solnechnvievieshchi": "Солнечные вещи"
+  "entity.formula.elik": "Elik",
+  "item_group.formula.solnechnvievieshchi": "Солнечные вещи",
+  "item.formula.elik_spawn_egg": "Elik Spawn Egg"
 }

@@ -57,6 +57,22 @@
           "src/main/resources/assets/formula/models/item/solniechnysword.json"
         ]
       }
+    },
+    {
+      "name": "Elik",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elik",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/elik_spawn_egg.json",
+          "src/main/resources/data/formula/forge/biome_modifier/elik_biome_modifier.json",
+          "src/main/java/net/mcreator/formula/entity/ElikEntity.java",
+          "src/main/java/net/mcreator/formula/client/renderer/ElikRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -65,7 +81,9 @@
     "en_us": {
       "item.formula.star": "Star",
       "item.formula.solniechnysword": "Solniechnysword",
-      "item_group.formula.solnechnvievieshchi": "Солнечные вещи"
+      "entity.formula.elik": "Elik",
+      "item_group.formula.solnechnvievieshchi": "Солнечные вещи",
+      "item.formula.elik_spawn_egg": "Elik Spawn Egg"
     }
   },
   "foldersRoot": {

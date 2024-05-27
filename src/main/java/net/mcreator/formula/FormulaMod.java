@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.formula.init.FormulaModItems;
+import net.mcreator.formula.init.FormulaModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -50,6 +51,7 @@ public class FormulaMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		FormulaModItems.REGISTRY.register(bus);
+		FormulaModEntities.REGISTRY.register(bus);
 
 	}
 
