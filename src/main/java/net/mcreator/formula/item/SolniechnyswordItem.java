@@ -24,7 +24,7 @@ public class SolniechnyswordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 998f;
+				return 0f;
 			}
 
 			public int getLevel() {

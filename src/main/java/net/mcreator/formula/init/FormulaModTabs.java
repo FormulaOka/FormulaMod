@@ -28,6 +28,7 @@ public class FormulaModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("formula", "solnechnvievieshchi"),
 				builder -> builder.title(Component.translatable("item_group.formula.solnechnvievieshchi")).icon(() -> new ItemStack(FormulaModItems.STAR.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(FormulaModItems.SOLNIECHNYSWORD.get());
+					tabData.accept(FormulaModItems.STAR.get());
 				}).withSearchBar());
 	}
 }
