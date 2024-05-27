@@ -57,22 +57,6 @@
           "src/main/resources/assets/formula/models/item/solniechnysword.json"
         ]
       }
-    },
-    {
-      "name": "FormulaOak",
-      "type": "livingentity",
-      "sortid": 15,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "formula_oak",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/formula/models/item/formula_oak_spawn_egg.json",
-          "src/main/java/net/mcreator/formula/entity/FormulaOakEntity.java",
-          "src/main/java/net/mcreator/formula/client/renderer/FormulaOakRenderer.java",
-          "src/main/resources/data/formula/forge/biome_modifier/formula_oak_biome_modifier.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
