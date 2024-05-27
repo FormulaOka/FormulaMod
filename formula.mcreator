@@ -1,9 +1,72 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Star",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/star.json",
+          "src/main/java/net/mcreator/formula/item/StarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Solnechnvievieshchi",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solnechnvievieshchi",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Solniechnysword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solniechnysword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/SolniechnyswordItem.java",
+          "src/main/resources/assets/formula/models/item/solniechnysword.json"
+        ]
+      }
+    },
+    {
+      "name": "Swords",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swords",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/procedures/SwordsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.formula.star": "Star",
+      "item.formula.solniechnysword": "Solniechnysword",
+      "item_group.formula.solnechnvievieshchi": "Солнечные вещи"
+    }
   },
   "foldersRoot": {
     "name": "~",

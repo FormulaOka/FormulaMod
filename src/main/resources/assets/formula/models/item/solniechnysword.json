@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "formula:item/8b94ad0ff1d92c5"
+  }
+}
