@@ -1,20 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Star",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "star",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/formula/models/item/star.json",
-          "src/main/java/net/mcreator/formula/item/StarItem.java"
-        ]
-      }
-    },
-    {
       "name": "Solnechnvievieshchi",
       "type": "tab",
       "sortid": 3,
@@ -26,16 +12,16 @@
       }
     },
     {
-      "name": "Solniechnysword",
-      "type": "tool",
-      "sortid": 1,
+      "name": "Star",
+      "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "solniechnysword",
+      "registry_name": "star",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/formula/item/SolniechnyswordItem.java",
-          "src/main/resources/assets/formula/models/item/solniechnysword.json"
+          "src/main/resources/assets/formula/models/item/star.json",
+          "src/main/java/net/mcreator/formula/item/StarItem.java"
         ]
       }
     },
@@ -55,6 +41,36 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "Solniechnysword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solniechnysword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/formula/item/SolniechnyswordItem.java",
+          "src/main/resources/assets/formula/models/item/solniechnysword.json"
+        ]
+      }
+    },
+    {
+      "name": "FormulaOak",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formula_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/formula/models/item/formula_oak_spawn_egg.json",
+          "src/main/java/net/mcreator/formula/entity/FormulaOakEntity.java",
+          "src/main/java/net/mcreator/formula/client/renderer/FormulaOakRenderer.java",
+          "src/main/resources/data/formula/forge/biome_modifier/formula_oak_biome_modifier.json"
         ]
       }
     }
